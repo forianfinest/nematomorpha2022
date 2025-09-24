@@ -3,3 +3,5 @@ Supplementary data for "Testing the efficacy of different molecular tools for pa
 
 Equivalent of:
 https://zenodo.org/records/7659651
+
+Since the huge size of some files, I prefer to load only the scripts here on GitHub.
