@@ -9,8 +9,8 @@ imap = {
 }
 data="notov_from2lmsbr_21.snps.hdf5" ####OR WHICH HDF5 FILE YOU WANT TO USE
 minmap = {i: 0.5 for i in imap}
-ipa.snps_extracter(data).names
-['ALV', 'AVX', 'BDSN', 'BLM', 'CAS', 'CFHF_01', 'CH116', 'CH413', 'DGL', 'DVD', 'FLAC', 'FMW', 'GIW', 'HMM', 'JPG', 'KTV', 'L1S', 'LOG', 'MCCH_02', 'MMN', 'MPW', 'MP_04', 'NAS', 'NOU', 'WAV', 'XBF', 'XCL']
+#ipa.snps_extracter(data).names
+#['ALV', 'AVX', 'BDSN', 'BLM', 'CAS', 'CFHF_01', 'CH116', 'CH413', 'DGL', 'DVD', 'FLAC', 'FMW', 'GIW', 'HMM', 'JPG', 'KTV', 'L1S', 'LOG', 'MCCH_02', 'MMN', 'MPW', 'MP_04', 'NAS', 'NOU', 'WAV', 'XBF', 'XCL']
 pca3 = ipa.pca(
    data=data,
    imap=imap,
